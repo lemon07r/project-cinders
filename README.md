@@ -40,6 +40,10 @@ Only install the official APK from https://cinders.lr7.dev/en/install/. Every re
 
 Check it with `apksigner verify --print-certs ProjectCinders.apk`. The app also checks this signer before installing its own updates.
 
+## Known issues
+
+- **Home asks which app to open after an update.** On XGIMI firmware, updating Project Cinders can sometimes reset Android's "Always" choice for the Home app. If pressing Home shows an "Opening method" chooser, select Project Cinders, then **Always** (始终). You only need to do this once after the update.
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) or https://cinders.lr7.dev/en/changelog/.
