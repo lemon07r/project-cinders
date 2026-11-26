@@ -1,0 +1,44 @@
+name: Compatibility report
+description: Tell us how Project Cinders works on your projector model.
+labels: [compatibility]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports from models other than the RS30 Pro Flagship are especially useful.
+
+        The quickest way: in the app, open **System → Send feedback or report a problem → Ask for support** and send it. The report includes the full compatibility check, privately. Then put the report ID below and describe what works.
+  - type: input
+    id: model
+    attributes:
+      label: Projector model and model code
+      placeholder: "XGIMI RS20 Pro (G0xxx)"
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      placeholder: "v1.2.11"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Project Cinders version
+      description: Shown in System → Updates in the app.
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: input
+    id: report
+    attributes:
+      label: In-app report ID
+      description: Optional, but it lets us see the compatibility check.
+  - type: textarea
+    id: notes
+    attributes:
+      label: What works and what doesn't
+      description: For example, controls that do nothing, open the wrong screen or show the wrong value. System → Compatibility shows which projector controls were found.
+    validations:
+      required: true

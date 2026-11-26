@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Project Cinders doesn't work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tip: the in-app report option (System → Send feedback or report a problem) sends diagnostics privately and is usually faster to act on. Never post your license key here.
+  - type: input
+    id: version
+    attributes:
+      label: Project Cinders version
+      description: Shown in System → Updates in the app.
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Projector model and firmware
+      placeholder: "RS30 Pro Flagship (G0171), firmware v1.2.11"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Settings → Picture
+        2. ...
+  - type: input
+    id: report
+    attributes:
+      label: In-app report ID (optional)
+      description: If you also sent a report from the app, its ID helps match the diagnostics.
