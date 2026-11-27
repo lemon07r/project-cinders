@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 contact_links:
   - name: Keys, orders, refunds and transfers
-    url: https://cinders.lr7.dev/en/manage/
+    url: https://projectcinders.com/en/manage/
     about: Manage your license here. Never post a license key in an issue.
   - name: Private support
-    url: https://cinders.lr7.dev/en/support/
+    url: https://projectcinders.com/en/support/
     about: For anything you don't want to post publicly.
   - name: Security issue
     url: https://github.com/lemon07r/project-cinders/security/policy

@@ -1,6 +1,6 @@
 # Security policy
 
-Please report security problems privately to **cinders@lr7.dev**, not in a public issue. This covers the Project Cinders app, its update and activation flow, and the https://cinders.lr7.dev site.
+Please report security problems privately to **lemon07r@lr7.dev**, not in a public issue. This covers the Project Cinders app, its update and activation flow, and the https://projectcinders.com site.
 
 Include the app version (System → Updates), your projector model and firmware, and the steps to reproduce. You'll get a reply within a few days.
 

@@ -1,6 +1,6 @@
 # Changelog
 
-Release notes in every supported language are at https://cinders.lr7.dev/en/changelog/.
+Release notes in every supported language are at https://projectcinders.com/en/changelog/.
 
 ## 0.3.1
 
