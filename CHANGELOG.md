@@ -2,6 +2,15 @@
 
 Release notes in every supported language are at https://projectcinders.com/en/changelog/.
 
+## 0.4.0
+
+Make Project Cinders yours.
+
+- Settings → System → Look: 5 themes, 6 space photos, or your own photo with Add a photo by QR.
+- Screensaver: use the Cinders slideshow instead of the XGIMI screensaver. XGIMI default puts the original back exactly.
+- Settings → Apps → Install access: let apps you trust install other apps, with one confirmation.
+- Get apps now includes Wholphin, Emby, Just Player, mpv-android, Plume and Aerial Views.
+
 ## 0.3.1
 
 Smoother updates.
